@@ -6,33 +6,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="StyleSheet" type="text/css" href="StyleSheet.css">
 <style></style>
-
 </head>
 <body>
+ 
+ <h1>Click the burger menu to see the magic.</h1>
+<input type="checkbox" id="burger-toggle">
+<label for="burger-toggle" class="burger-menu">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</label>
 
-<div class="header">
-  <h1>Hvaler</h1>
-  <p>Denne hjemmeside er til folk, der elsker hvaler</p>
-</div>
-
-<div class="topnav">
-  <a href="https://ulrikwolter.github.io/Gallery/">Hvaler</a>
-  <a href="https://ulrikwolter.github.io/Gallery/omdenneside.html">Om denne side</a>
-  <a href="https://ulrikwolter.github.io/Gallery/kontakt.html">Kontakt</a>
-  <a href="https://ulrikwolter.github.io/hvaler/hvalersite/spil.html">Spil</a>
-
-</div>
-
-<div class="row">
-  <div class="column">
-    <h2>Kontakt</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Android_Email_8.1_Icon.png">
-    <p> Email: Hval@gmail.com</p>
-    <p> Telefon: 23 45 67 89 </p>
-    <p> Adresse: Hvalvænget 23, Ved vandet 2500</p>
+<div class="menu">
+  <div class="menu-inner">
+    <ul class="menu-nav">
+      <li class="menu-nav-item"><a class="menu-nav-link" href="https://ulrikwolter.github.io/Gallery/"><span>
+            <div>Home</div>
+          </span></a></li>
+      <li class="menu-nav-item"><a class="menu-nav-link" href="https://ulrikwolter.github.io/Gallery/omdenneside.html"><span>
+            <div>About</div>
+          </span></a></li>
+      <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+            <div>Service</div>
+          </span></a></li>
+                <li class="menu-nav-item"><a class="menu-nav-link" href="https://ulrikwolter.github.io/Gallery/kontakt.html"><span>
+            <div>Contact</div>
+          </span></a></li>
+      <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+            <div>Team</div>
+          </span></a></li>
+    </ul>
+    <div class="gallery">
+      <div class="title">
+        <p>Kontakt</p>
+      </div>
+      <div class="images">
+        <a class="image-link" href="#">
+          <div class="image" data-label="Email"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Android_Email_8.1_Icon.png" alt=""></div>
+        </a>
+        <a class="image-link" href="#">
+          <div class="image" data-label="Telefon"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Old_rotary_phone.jpg" alt=""></div>
+        </a>
+        <a class="image-link" href="#">
+          <div class="image" data-label="Adresse" alt="">
+            <iframe id="image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.024603099605!2d-73.96763018434244!3d40.80545313982956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c75af2d65%3A0xf45542f6cb090cc9!2s2880%20Broadway%2C%20New%20York%2C%20NY%2010025%2C%20USA!5e0!3m2!1sen!2sdk!4v1645960915479!5m2!1sen!2sdk" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+          </div>
+        </a>
+     </div>
+    </div>
   </div>
-
 </div>
-
 </body>
 </html>
